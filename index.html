@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body style="background-color:#34495e;">
+    <div class="banner">
+      <h4 style="padding-left:5px;">Outward Character Builder V1</h4>
+    </div>
+    
+    <div class="followContainer" style="width:fit-content;">
+      <div style="vertical-align:top;display:flex;align-items:center;">
+        <picture>
+          <source srcset="assets/SilverIcon.webp" type="image/webp">
+          <source srcset="assets/replace.jpg" type="image/jpeg"> 
+          <img class="costEstimate" src="assets/replace.jpg" alt="Silver">
+        </picture>
+        <div class="costEstimateText""><span>0</span></div>
+        <picture>
+          <source srcset="assets/BreakthroughIcon.webp" type="image/webp">
+          <source srcset="assets/replace.jpg" type="image/jpeg"> 
+          <img class="costEstimate" src="assets/replace.jpg" alt="Breakthrough Point">
+        </picture>
+        <div class="costEstimateText"><span>0</span></div>
+        <picture>
+          <source srcset="assets/Rations.webp" type="image/webp">
+          <source srcset="assets/replace.jpg" type="image/jpeg"> 
+          <img class="costEstimate" src="assets/replace.jpg" alt="Rations">
+        </picture>
+        <div class="costEstimateText" style="padding-left: 2.5px"><span>0</span></div>
+        <picture>
+          <source srcset="assets/MedalIcon.webp" type="image/webp">
+          <source srcset="assets/replace.jpg" type="image/jpeg"> 
+          <img class="costEstimate" src="assets/replace.jpg" alt="Medals">
+        </picture>
+        <div class="costEstimateText" style="padding-left: 2.5px"><span>0</span></div>
+      </div>
+    </div>
+      
+    <div style="margin-top:109px;">
+      <div id="skillTrees">
+        <picture id="skillTreeTemplate">
+          <source srcset="assets/skillTrees/cabalTree/Logo.webp" type="image/webp">
+          <source srcset="assets/replace.jpg" type="image/jpeg"> 
+          <span style="opacity: 0;background-color: #617487;" class="badge">0</span>
+          <img class="skillTreePic" src="assets/replace.jpg" alt="Skilltree">
+        </picture>
+      </div>
+      <div id="skillTreeDisplay">
+        <h2 style="color:#bdc3c7;font-family:'Georgia',serif;text-align: center;">Select a Skilltree!</h2>
+        <p style="text-align: center;">Region | Trainer | DLC</p>
+        <div class="skillTop"><span>Tier I</span></div>
+        <div class="skillBottom" id="tierOne">
+          <picture class="skillPicFull" id="skillPicTemplate">
+            <source srcset="assets/skillTrees/cabalTree/skills/Call_to_Elements.webp" type="image/webp">
+            <source srcset="assets/replace.jpg" type="image/jpeg"> 
+            <img class="skillPic" style="border: 4px solid #22303c;" src="assets/replace.jpg" alt="Skill">
+          </picture>
+        </div>
+        <br>
+        <div class="skillTop"><span>Tier II</span></div>
+        <div class="skillBottom" id="tierTwo">
+        </div>
+        <br>
+        <div class="skillTop"><span>Tier III</span></div>
+        <div class="skillBottom" id="tierThree">
+        </div>
+        <br>
+        <div id="skillDescriptionTop"><a>Skill name here!</a></div>
+        <div id="skillDescription">
+          <p>Skill description here!</p>
+        </div>
+      </div>
+    </div>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/3.6.2/fetch.min.js"></script>
+    <script type="text/javascript" src="data/skillTrees.json"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
