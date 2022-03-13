@@ -1,0 +1,939 @@
+{
+	"Cabal Hermit": [
+		{
+			"name": "Reveal Soul",
+			"description": "Reveal the blueish soul orb left by deceased thieves and adventurers. Certain spells must be cast within proximity of a soul.",
+			"cost": "50",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Reveal_Soul",
+			"tier": "1",
+      "trainer":"Adalbert",
+      "region":"Chersonese",
+      "DLC":"Vanilla"
+		},
+		{
+			"name": "Call to Elements",
+			"description": "Grants you a boon that varies according to your location when casting this spell. ",
+			"cost": "50",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Call_to_Elements",
+			"tier": "1"
+		},
+		{
+			"name": "Mana Push",
+			"description": "Spell which inflicts no damage but has High Impact in a wide area in front of the caster. Can be combined with other spells for powerful effects.",
+			"cost": "50",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Mana_Push",
+			"tier": "1"
+		},
+		{
+			"name": "Weather Tolerance",
+			"description": "Increases your Hot and Cold Weather Defense by 8. Increases your Decay Resistance by 5.",
+			"cost": "100",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Weather_Tolerance",
+			"tier": "1"
+		},
+		{
+			"name": "Shamanic Resonance",
+			"description": "The effects of boons on you are increased. For example, a boon  that increases your Fire Resistance by 20 would increase it by 30 instead.",
+			"cost": "500",
+			"BP": "1",
+			"wikiLink": "https://outward.fandom.com/wiki/Shamanic_Resonance",
+			"tier": "2"
+		},
+		{
+			"name": "Sigil of Wind",
+			"description": "Required: Activated Wind Altar. Create a magic circle on the ground. Certain skills have additional effects when cast within this circle.",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Sigil_of_Wind",
+			"tier": "3"
+		},
+		{
+			"name": "Infuse Wind",
+			"description": "Required: Activated Wind Altar. Increases the Impact and Attack Speed of your melee weapon for 3 minutes.Your stamina burn increases more quickly, however.",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Infuse_Wind",
+			"tier": "3"
+		},
+		{
+			"name": "Conjure",
+			"description": "Spell which does nothing on its own, but can be combined with other abilites. ",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Conjure",
+			"tier": "3"
+		}
+	],
+	"Kazite Spellblade": [
+		{
+			"name": "Steady Arm",
+			"description": "Increases Impact Resistance by 10 while you are blocking. ",
+			"cost": "50",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Steady_Arm",
+			"tier": "1",
+      "trainer":"Eto Akiyuki",
+      "region":"Cierzo",
+      "DLC":"Vanilla"
+		},
+		{
+			"name": "Shield Charge",
+			"description": "Required: Shield Rush forward to hit foes with your shield for high Impact.  Can hit the target twice.",
+			"cost": "100",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Shield_Charge",
+			"tier": "1"
+		},
+		{
+			"name": "Fitness",
+			"description": "Increases your maximum Health by 25 and the amount of Health you restore while sleeping by 20%",
+			"cost": "50",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Fitness",
+			"tier": "1"
+		},
+		{
+			"name": "Spellblade's Awakening",
+			"description": "Increases your maximum Health, Stamina and Mana by 15 each",
+			"cost": "500",
+			"BP": "1",
+			"wikiLink": "https://outward.fandom.com/wiki/Spellblade%27s_Awakening",
+			"tier": "2"
+		},
+		{
+			"name": "Infuse Fire",
+			"description": "Temporarily adds fire damage to your melee weapon and inflicts Burning on enemies.  Consumes your Warm boon.",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Infuse_Fire",
+			"tier": "3",
+      "cancels":"Infuse Frost"
+		},
+		{
+			"name": "Infuse Frost",
+			"description": "Temporarily adds ice damage to your melee weapon and inflicts Slow Down on enemies.  Consumes your Cool boon.",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Infuse_Frost",
+			"tier": "3",
+      "cancels":"Infuse Fire"
+		},
+		{
+			"name": "Gong Strike",
+			"description": "Strike your weapon on your shield, removing the elemental infusion to make an explosion of that element. ",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Gong_Strike",
+			"tier": "3",
+      "cancels":"Elemental Discharge"
+		},
+		{
+			"name": "Elemental Discharge",
+			"description": "Required: Infused Weapon Shoot a projectile of the element that is infused on your weapon. ",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Elemental_Discharge",
+			"tier": "3",
+      "cancels":"Gong Strike"
+		}
+	],
+	"Mercenary": [
+		{
+			"name": "Shatter Bullet",
+			"description": "Required: Pistol, Iron ScrapsLoad a bullet with high Impact which also inflicts PainShooting it requires the use of the Fire/Reload skill. ",
+			"cost": "50",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Shatter_Bullet",
+			"tier": "1",
+      "trainer":"Jaimon",
+      "region":"Lavant",
+      "DLC":"Vanilla"
+		},
+		{
+			"name": "Frost Bullet",
+			"description": "Required: Pistol, Cool BoonLoad the pistol with a bullet that makes a short-distance blast which slows enemies.  Removes your Cool boon.Shooting it requires use of the Fire/Reload skill.",
+			"cost": "100",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Frost_Bullet",
+			"tier": "1"
+		},
+		{
+			"name": "Fast Maintenance",
+			"description": "You repair your equipment 50% faster when you allocate time to Repairing in the rest menu. ",
+			"cost": "50",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Fast_Maintenance",
+			"tier": "1"
+		},
+		{
+			"name": "Armor Training",
+			"description": "Decreases the stamina and movement penalties from wearing armor by 50%. ",
+			"cost": "100",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Armor_Training",
+			"tier": "1"
+		},
+		{
+			"name": "Swift Foot",
+			"description": "Your movement speed is increased by 10%",
+			"cost": "500",
+			"BP": "1",
+			"wikiLink": "https://outward.fandom.com/wiki/Swift_Foot",
+			"tier": "2"
+		},
+		{
+			"name": "Marathoner",
+			"description": "Sprinting consumes 40% less stamina. ",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Marathoner",
+			"tier": "3"
+		},
+		{
+			"name": "Shield Infusion",
+			"description": "Block an elemental attack.  When you next block, an elemental explosion will burst from you.",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Shield_Infusion",
+			"tier": "3",
+      "cancels":"Blood Bulllet"
+		},
+		{
+			"name": "Blood Bullet",
+			"description": "Required: Pistol, Possessed BoonAbsorb the enemy's life into your pistol as a blood bullet, healing yourself. Shooting it requires the use of the Fire/Reload skill.",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Blood_Bullet",
+			"tier": "3",
+      "cancels":"Shield Infusion"
+		}
+	],
+	"Philosopher": [
+		{
+			"name": "Chakram Pierce",
+			"description": "Required: Chakram, Discipline Boon.  Launch the disc forward, possibly hitting the enemy twice. Discipline is required to cast this spell.",
+			"cost": "50",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Chakram_Pierce",
+			"tier": "1",
+      "trainer":"Alemmon",
+      "region":"Monsoon",
+      "DLC":"Vanilla"
+		},
+		{
+			"name": "Chakram Arc",
+			"description": "Required:Chakram, Discipline Boon. The disc sweeps the area in front of the caster, dealing high Damage and Impact. Discipline is required to cast this spell.",
+			"cost": "100",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Chakram_Arc",
+			"tier": "1"
+		},
+		{
+			"name": "Sigil of Fire",
+			"description": "Consumes: Fire StoneCreate a magic circle on the ground.  Certain skills have additional effects when cast within this circle.",
+			"cost": "50",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Sigil_of_Fire",
+			"tier": "1"
+		},
+		{
+			"name": "Mana Ward",
+			"description": "Envelops you in Mana and, for an instant, you become immune to Damage. Can be combined with other spells for powerful effects.",
+			"cost": "50",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Mana_Ward",
+			"tier": "1"
+		},
+		{
+			"name": "Leyline Connection",
+			"description": "You regain 0. 34 mana per second.This is a constant effect",
+			"cost": "500",
+			"BP": "1",
+			"wikiLink": "https://outward.fandom.com/wiki/Leyline_Connection",
+			"tier": "2"
+		},
+		{
+			"name": "Chakram Dance",
+			"description": "Required: Chakram, Discipline Boon.  The disc sways left and right as it advances, hitting multiple times and dealing high damage. Discipline is required to cast this spell",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Chakram_Dance",
+			"tier": "3"
+		},
+		{
+			"name": "Sigil of Ice",
+			"description": "Consumes: Cold StoneCreate a magic circle on the ground.  Certain skills have additional effects when cast within this circle.",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Sigil_of_Ice",
+			"tier": "3",
+      "cancels":"Fire Affinity"
+		},
+		{
+			"name": "Fire Affinity",
+			"description": "Increase your resistance to Fire by 20% and the Fire damage you inflict is increased by 15%. ",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Fire_Affinity",
+			"tier": "3",
+      "cancels":"Sigil of Ice"
+		}
+	],
+	"Rogue Engineer": [
+		{
+			"name": "Backstab",
+			"description": "Required: DaggerDagger attack.  If the attack hits the enemy's back, the damage and impact are tripled.",
+			"cost": "50",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Backstab",
+			"tier": "1",
+      "trainer":"Styx",
+      "region":"Levant",
+      "DLC":"Vanilla"
+		},
+		{
+			"name": "Sweep Kick",
+			"description": "Weak attack with wide arc of effect and high impact.  Will knock down a target afflicted by Confusion status effect.",
+			"cost": "50",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Sweep_Kick",
+			"tier": "1"
+		},
+		{
+			"name": "Pressure Plate Training",
+			"description": "Enable you to deploy complex Pressure Plate Traps. These traps are primarily armed with charges, which shoot poison, fire and more.",
+			"cost": "50",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Pressure_Plate_Training",
+			"tier": "1"
+		},
+		{
+			"name": "Opportunist Stab",
+			"description": "Dagger attack.  If the enemy has the Pain or Confusion hex, this attack's damage and knockback are tripled. If it has both, it is 6 times stronger instead.",
+			"cost": "100",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Opportunist_Stab",
+			"tier": "1"
+		},
+		{
+			"name": "Feather Dodge",
+			"description": "Lowers the Stamina cost of dodging by 50% and allows you to dodge unimpeded even when wearing a backpack. ",
+			"cost": "500",
+			"BP": "1",
+			"wikiLink": "https://outward.fandom.com/wiki/Feather_Dodge",
+			"tier": "2"
+		},
+		{
+			"name": "Serpent's Parry",
+			"description": "Required: DaggerCounter a physical attack with a strong dagger strike.  Targets afflicted by Confusion are briefly stunned. Targets afflicted by Pain will be inflicted Extreme Bleeding.",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Serpent%27s_Parry",
+			"tier": "3"
+		},
+		{
+			"name": "Stealth Training",
+			"description": "Enemies will have a harder time spotting you. Sprinting and having a light source will still easily alert them, though",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Stealth_Training",
+			"tier": "3",
+      "cancels":"Pressure Plate Expertise"
+		},
+		{
+			"name": "Pressure Plate Expertise",
+			"description": "Increases the power of your Pressure Plate Traps. Allows reuse of Pressure Plates after they have been triggered, though they must be re-armed with another charge or compatible item.",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Pressure_Plate_Expertise",
+			"tier": "3",
+      "cancels":"Stealth Training"
+		}
+	],
+	"Rune Sage": [
+		{
+			"name": "Rune: Dez",
+			"description": "Blue rune that does nothing on its own, but can produce combo effects by casting other runes in the correct order. ",
+			"cost": "50",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Rune:_Dez",
+			"tier": "1",
+      "trainer":"Flase",
+      "region":"Berg",
+      "DLC":"Vanilla"
+		},
+		{
+			"name": "Rune: Egoth",
+			"description": "Purple rune that does nothing on its own, but can produce combo effects by casting other runes in the correct order. ",
+			"cost": "50",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Rune:_Egoth",
+			"tier": "1"
+		},
+		{
+			"name": "Rune: Fal",
+			"description": "Green rune that does nothing on its own, but can produce combo effects by casting other runes in the correct order. ",
+			"cost": "50",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Rune:_Fal",
+			"tier": "1"
+		},
+		{
+			"name": "Rune: Shim",
+			"description": "Red rune that does nothing on its own, but can produce combo effects by casting other runes in the correct order. ",
+			"cost": "50",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Rune:_Shim",
+			"tier": "1"
+		},
+		{
+			"name": "Well of Mana",
+			"description": "Increases your maximum Mana by 40. ",
+			"cost": "500",
+			"BP": "1",
+			"wikiLink": "https://outward.fandom.com/wiki/Well_of_Mana",
+			"tier": "2"
+		},
+		{
+			"name": "Arcane Syntax",
+			"description": "Gain access to more advanced runic  combos. ",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Arcane_Syntax",
+			"tier": "3"
+		},
+		{
+			"name": "Internalized Lexicon",
+			"description": "Removes the need to have an equipped Lexicon in your off-hand to cast runic spells. ",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Internalized_Lexicon",
+			"tier": "3",
+      "cancels":"Runic Prefix"
+		},
+		{
+			"name": "Runic Prefix",
+			"description": "All runic spells are more powerful or have added effects",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Runic_Prefix",
+			"tier": "3",
+      "cancels":"Internalized Lexicon"
+		}
+	],
+	"Warrior Monk": [
+		{
+			"name": "Brace",
+			"description": "Blocks an attack, restoring your stability and giving you the Discipline boon. All nearby enemies are knocked back.",
+			"cost": "50",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Brace",
+			"tier": "1",
+      "trainer":"Galira",
+      "region":"Monsoon",
+      "DLC":"Vanilla"
+		},
+		{
+			"name": "Slow Metabolism",
+			"description": "It takes more time for you to become hungry, thirsty and sleepy. ",
+			"cost": "50",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Slow_Metabolism",
+			"tier": "1"
+		},
+		{
+			"name": "Focus",
+			"description": "Grants the discipline boon, which increases the physical damage of your attacks. Using this skill burns a bit of your maximum stamina until the next time you sleep.Certain skills require this boon to be active.",
+			"cost": "50",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Focus",
+			"tier": "1"
+		},
+		{
+			"name": "Steadfast Ascetic",
+			"description": "Increases your maximum Stamina by 40. ",
+			"cost": "500",
+			"BP": "1",
+			"wikiLink": "https://outward.fandom.com/wiki/Steadfast_Ascetic",
+			"tier": "2"
+		},
+		{
+			"name": "Perfect Strike",
+			"description": "Required: Any Melee Weapon, Discipline Boon. Lunging attack that ignores all defenses and inflicts Pain.",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Perfect_Strike",
+			"tier": "3",
+      "cancels":"Master of Motion"
+		},
+		{
+			"name": "Master of Motion",
+			"description": "While under the effect of the Discipline boon, Impact Resistance and all damage resistances are increased by 10. ",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Master_of_Motion",
+			"tier": "3",
+      "cancels":"Perfect Strike"
+		},
+		{
+			"name": "Flash Onslaught",
+			"description": "Required: Any Melee Weapon, Discipline BoonAttack all enemies within a close distance with increased Damage and Impact.  Using the skill consumes the Discipline boon.",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Flash_Onslaught",
+			"tier": "3",
+      "cancels":"Counterstrike"
+		},
+		{
+			"name": "Counterstrike",
+			"description": "Required: Any Melee Weapon. Completely block a physical attack, striking the attacker and dealing high Damage. ",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Counterstrike",
+			"tier": "3",
+      "cancels":"Flash Onslaught"
+		}
+	],
+	"Wild Hunter": [
+		{
+			"name": "Enrage",
+			"description": "Grants the Rage boon, which increases the Impact of your attacks. Using this skill burns a bit of your maximum health until the next time you sleep.Certain skills require this boon to be active.",
+			"cost": "50",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Enrage",
+			"tier": "1",
+      "trainer":"Ture",
+      "region":"Berg",
+      "DLC":"Vanilla"
+		},
+		{
+			"name": "Evasion Shot",
+			"description": "Shoot an arrow while jumping backwards.  Causes the Cripple status effect on the target. Locking on foes is essential with this skill.",
+			"cost": "50",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Evasion_Shot",
+			"tier": "1"
+		},
+		{
+			"name": "Hunter's Eye",
+			"description": "You can lock on enemies at longer distances when using a bow. ",
+			"cost": "50",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Hunter%27s_Eye",
+			"tier": "1"
+		},
+		{
+			"name": "Sniper Shot",
+			"description": "Required: Bow. Let loose a very strong arrow shot with a long windup, making it a poor option in the middle of combat.",
+			"cost": "100",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Sniper_Shot",
+			"tier": "1"
+		},
+		{
+			"name": "Survivor's Resilience",
+			"description": "Increases your maximum health by 40. ",
+			"cost": "500",
+			"BP": "1",
+			"wikiLink": "https://outward.fandom.com/wiki/Survivor%27s_Resilience",
+			"tier": "2"
+		},
+		{
+			"name": "Predator Leap",
+			"description": "Jumping attack that creates a shockwave upon landing, with high Impact and Damage. ",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Predator_Leap",
+			"tier": "3",
+      "cancels":"Piercing Shot"
+		},
+		{
+			"name": "Piercing Shot",
+			"description": "Required: Bow. Strong shot that goes through enemies and hits other foes behind. Inflicts Extreme Bleeding.",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Piercing_Shot",
+			"tier": "3",
+      "cancels":"Predator Leap"
+		},
+		{
+			"name": "Feral Strikes",
+			"description": "Required: Melee Weapon, Rage BoonAttack twice, consuming your Rage boon in the process.  Inflicts Extreme Bleeding and Pain.",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Feral_Strikes",
+			"tier": "3"
+		}
+	],
+	"Hex Mage": [
+		{
+			"name": "Jinx",
+			"description": "Inflicts a random Hex debuff on the target. ",
+			"cost": "50",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Jinx",
+			"tier": "1",
+      "trainer":"Ella Lockwell",
+      "region":"Harmattan",
+      "DLC":"The Soroboreans"
+		},
+		{
+			"name": "Torment",
+			"description": "Triggers a related reaction in all nearby enemies afflicted with a Hex",
+			"cost": "100",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Torment",
+			"tier": "1"
+		},
+		{
+			"name": "Nightmares",
+			"description": "Reduces Max Mana burn from sleeping by 25%, reduces Max Stamina burn recovery by 25%",
+			"cost": "100",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Nightmares",
+			"tier": "1"
+		},
+		{
+			"name": "Bloodlust",
+			"description": "For every death around the caster, recover 5 max Health, Stamina and Mana burn. ",
+			"cost": "500",
+			"BP": "1",
+			"wikiLink": "https://outward.fandom.com/wiki/Bloodlust",
+			"tier": "2"
+		},
+		{
+			"name": "Blood Sigil",
+			"description": "Consumes: Dark StoneCreate a magic circle on the ground.  Certain skills have additional effects when cast within this circle.",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Blood_Sigil",
+			"tier": "3",
+      "cancels":"Rupture"
+		},
+		{
+			"name": "Rupture",
+			"description": "Detonate all Hexes on nearby enemies, and all souls, for related damage. ",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Rupture",
+			"tier": "3",
+      "cancels":"Blood Sigil"
+		},
+		{
+			"name": "Cleanse",
+			"description": "Requires 50% Corruption and a Mana Stone.  Creates a Dark Stone, removes 30% Corruption, suffer Extreme Bleeding and 65  Decay damage.",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Cleanse",
+			"tier": "3"
+		},
+		{
+			"name": "Lockwell's Revelation",
+			"description": "Increases Elemental Damage by 15% when Tired, and 30% when Very Tired. ",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Lockwell%27s_Revelation",
+			"tier": "3"
+		}
+	],
+	"The Speedster": [
+		{
+			"name": "Probe",
+			"description": "A weak attack that increases Alertness level on hit.  Evolves into stronger forms as Alertness level rises.",
+			"cost": "50",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Probe",
+			"tier": "1",
+      "trainer":"Serge",
+      "region":"Harmattan",
+      "DLC":"The Soroboreans"
+		},
+		{
+			"name": "Efficiency",
+			"description": "Maximum Stamina increased by 25. ",
+			"cost": "50",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Efficiency",
+			"tier": "1"
+		},
+		{
+			"name": "Metabolic Purge",
+			"description": "Passive skill that increases  Corruption resistance by 10%. ",
+			"cost": "100",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Metabolic_Purge",
+			"tier": "1"
+		},
+		{
+			"name": "Daredevil",
+			"description": "Reduce all skill Cooldowns by 10% per Alertness level. ",
+			"cost": "500",
+			"BP": "1",
+			"wikiLink": "https://outward.fandom.com/wiki/Daredevil",
+			"tier": "2"
+		},
+		{
+			"name": "Prime",
+			"description": "Removes 2 Alertness levels, instantly resets the cooldown of the next skill used in the next 3 minutes. ",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Prime",
+			"tier": "3"
+		},
+		{
+			"name": "Unerring Read",
+			"description": "Removes 1 Alertness levels, cancels the next hit received in the next 20 seconds. ",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Unerring_Read",
+			"tier": "3"
+		},
+		{
+			"name": "Blitz",
+			"description": "Increases Sprinting speed by 5% and running attack damage by 10% per Alertness level. ",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Blitz",
+			"tier": "3",
+      "cancels":"Anticipation"
+		},
+		{
+			"name": "Anticipation",
+			"description": "Increases physical protection stat by 2 per Alertness level. ",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Anticipation",
+			"tier": "3",
+      "cancels":"Blitz"
+		}
+	],
+	"Primal Ritualist": [
+		{
+			"name": "Haunting Beat",
+			"description": "Required: Ghost Drums in inventory. Deploys the Ghost Drum and causes Haunted in a small radius. There can't be another Totem within 30 meters.",
+			"cost": "50",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Haunting_Beat",
+			"tier": "1",
+      "trainer":"Sinai",
+      "region":"Ritualist's hut",
+      "DLC":"The Three Brothers"
+		},
+		{
+			"name": "Welkin Ring",
+			"description": "Required: Sky Chimes in inventory. \nDeploys the Sky Chimes and causes Doom in a small radius. There can't be another Totem within 30 meters.",
+			"cost": "50",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Welkin_Ring",
+			"tier": "1"
+		},
+		{
+			"name": "Miasmic Tolerance",
+			"description": "Increase Status Effect resistance by 15% when well rested. ",
+			"cost": "50",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Miasmic_Tolerance",
+			"tier": "1"
+		},
+		{
+			"name": "Sacred Fumes",
+			"description": "Increases Barrier by 7. ",
+			"cost": "500",
+			"BP": "1",
+			"wikiLink": "https://outward.fandom.com/wiki/Sacred_Fumes",
+			"tier": "2"
+		},
+		{
+			"name": "Nurturing Echo",
+			"description": "Required: At least one deployed Totem within 15 meters. Generates a bubble around nearby Totems that provide restoration of some kind. Lasts longer depending on how many Charges the Totem has built up.",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Nurturing_Echo",
+			"tier": "3",
+      "cancels":"Reverberation"
+		},
+		{
+			"name": "Reverberation",
+			"description": "Required: Must be facing a Totem within 1 meterRecalls a deployed totem to your inventory, and generates a zone of recurring damage.  The size, damage type and duration depend on the Totem and how many Charges it has built up.",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Reverberation",
+			"tier": "3",
+      "cancels":"Nurturing Echo"
+		},
+		{
+			"name": "Harmony and Melody",
+			"description": "Allows you to have both a Sky Chimes totem and a Ghost Drums totem active in close proximity of each other at the same time. ",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Harmony_and_Melody",
+			"tier": "3"
+		},
+		{
+			"name": "Battle Rhythm",
+			"description": "Your deployed Sky Chimes increase Barrier by 5 and Ghost Drums increase Protection by 5 when within 8 meters.  This bonus also applies to your allies.",
+			"cost": "600",
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Battle_Rhythm",
+			"tier": "3"
+		}
+	],
+	"Weapon Master": [
+		{
+			"name": "Warrior's Vein",
+			"description": "Required: 2-Handed AxeA strong counter with high impact that inflicts Extreme Bleeding on yourself and the enemy. ",
+			"cost": 0,
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Warrior%27s_Vein",
+			"tier": "1",
+      "medal":"3",
+      "trainer":"Bea Battleborn",
+      "region":"New Sirocco",
+      "DLC":"The Three Brothers"
+		},
+		{
+			"name": "Dispersion",
+			"description": "Required: 1-Handed MaceCreate a highly damaging shockwave that destabilizes you.  If your Weapon has an elemental imbue, it uses that element and inflicts the associated Hex on foes.",
+			"cost": 0,
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Dispersion",
+			"tier": "1",
+      "medal":"3"
+		},
+		{
+			"name": "Moment of Truth",
+			"description": "Required: 2-Handed SwordA highly damaging strike that bypasses 50% of enemy resistances.  Lowers your own resistances by 50% for 15 seconds.",
+			"cost": 0,
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Moment_of_Truth",
+			"tier": "1",
+      "medal":"3"
+		},
+		{
+			"name": "The Technique",
+			"description": "Required: 1-Handed SwordUnleash a flurry of 6 rapid strikes. ",
+			"cost": 0,
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/The_Technique",
+			"tier": "1",
+      "medal":"3"
+		},
+		{
+			"name": "Scalp Collector",
+			"description": "Required: 1-Handed AxeInflicts Bleeding on hit.  Finish off an enemy with this skill to gain the Kill Streak Buff, which grants bonus damage and speed.",
+			"cost": 0,
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Scalp_Collector",
+			"tier": 0,
+      "medal":"3"
+		},
+		{
+			"name": "Crescendo",
+			"description": "Required: 2-Handed MaceA quick strike that generates 1 stack of the Craze Buff on hit, which grants bonus damage.  All stacks of Craze are lost if you are damaged.",
+			"cost": 0,
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Crescendo",
+			"tier": "1",
+      "medal":"3"
+		},
+		{
+			"name": "Vicious Cycle",
+			"description": "Required: SpearA high damage and high impact sweep that inflicts Cripple on enemies. ",
+			"cost": 0,
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Vicious_Cycle",
+			"tier": "1",
+      "medal":"3"
+		},
+		{
+			"name": "Splitter",
+			"description": "Required: PolearmA leaping strike that increases in power as the enemy's life % decreases, and uses the element infused on the weapon.  You will evade all enemy attacks while performing this move.",
+			"cost": 0,
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Splitter",
+			"tier": "1",
+      "medal":"3"
+		},
+		{
+			"name": "Vital Crash",
+			"description": "Required: Any Fist WeaponA long distance running tackle that does more damage the more Health % you have and more impact the more Stamina % you have.  Inflicts Confusion and Pain on you.",
+			"cost": 0,
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Vital_Crash",
+			"tier": "1",
+      "medal":"3"
+		},
+		{
+			"name": "Strafing Run",
+			"description": "Required: Bow, 5 equipped arrowsRun to the left or right while unleashing a storm of 5 arrows.  Best used while locked onto a target.",
+			"cost": 0,
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Strafing_Run",
+			"tier": "1",
+      "medal":"3"
+		}
+	],
+	"Specialist": [
+		{
+			"name": "Brawns",
+			"description": "Increase Physical Damage by 25% and increase max stamina by 25, but lowers elemental damage by 40%. ",
+			"cost": 0,
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Brawns",
+			"tier": "1",
+      "medal":"3",
+      "trainer":"Justin Garnet",
+      "region":"New Sirocco",
+      "DLC":"The Three Brothers"
+		},
+		{
+			"name": "Brains",
+			"description": "Increases Elemental Damage by 15%, but lowers physical damage by 25% and increases Stamina costs by 15%",
+			"cost": 0,
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Brains",
+			"tier": "1",
+      "medal":"3"
+		},
+		{
+			"name": "Patience",
+			"description": "Increase damage from Weapon Skills by 30% but lower the damage from normal and special attacks by 20%",
+			"cost": 0,
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Patience",
+			"tier": "1",
+      "medal":"3"
+		},
+		{
+			"name": "Cruelty",
+			"description": "Increase damage of your Burning, Poison, Extreme poison by 50% and increase the damage of Bleeding, Extreme Bleeding, Blaze, Holy Blaze and Plague by 30%.  Lower status resistances by 50% and Physical resistance by 10%.",
+			"cost": 0,
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Cruelty",
+			"tier": "1",
+      "medal":"3"
+		},
+		{
+			"name": "Unsealed",
+			"description": "Speed up Sigil placement skills and extend the duration of Sigils by 20 seconds. Lower max life by 25.",
+			"cost": 0,
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Unsealed",
+			"tier": "1",
+      "medal":"3"
+		},
+		{
+			"name": "Acrobatics",
+			"description": "Unhampered Dodge Rolls have increased range. Stamina cost of Dodge Rolls increased by 50%",
+			"cost": 0,
+			"BP": 0,
+			"wikiLink": "https://outward.fandom.com/wiki/Acrobatics",
+			"tier": "1",
+      "medal":"3"
+		}
+	]
+}
