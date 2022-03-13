@@ -1,2 +1,2 @@
 # OutwardCalculator
-A simple outward calculator to save you trips to the wiki!
+A simple site that calculates the cost of some builds to save you trips to the wiki!
